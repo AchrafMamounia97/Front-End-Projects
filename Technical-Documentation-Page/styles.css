@@ -1,0 +1,149 @@
+*  {
+    margin: 0;
+    padding: 0;
+}
+
+#main-doc:not(code), #navbar {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+
+#navbar header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -30px;
+}
+
+#navbar ul {
+    margin: 15px;
+    font-size: 15px;
+    list-style: none;
+}
+#navbar ul li a {
+    color: #4e4e4e;
+}
+
+#navbar ul li {
+    padding: 10px 0;
+    border-top: 1px solid black;
+    margin: 0 -15px;
+}
+
+#navbar ul li:hover {
+    background-color: rgb(175, 173, 173);
+}
+
+
+.main-section article p, ul {
+    color: #4e4e4e;
+    font-size: 17px;
+}
+
+a {
+    margin: 5px 25px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#navbar {
+    height: 100%;
+    width: 320px;
+    position: fixed;
+    overflow: scroll;
+}
+
+
+#main-doc {
+    margin-left: 320px;
+    border-left: 3px solid gray;
+    padding: 30px 35px;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+div {
+    border: 1px solid;
+    border-style: none;
+    background-color: #eeeaea;
+    width: 95%;
+    border-radius: 5px;
+    margin-left: 30px;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+} 
+
+div p code {
+    font-size: 13px;
+}
+
+div p {
+    margin-bottom: 1%;
+}
+
+
+.main-section article {
+    margin: 20px;
+}
+
+.main-section article p {
+    margin-bottom: 20px;
+}
+
+.main-section article ul {
+    margin-left: 70px;
+}
+
+#data li {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#Reference article ul a {
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+@media (min-width: 576px) { /* Small devices => Phones */ 
+    #navbar {
+        max-width: 540px;
+    }
+
+    #main-doc {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) { /* Medium devices => Tablets */
+    #navbar {
+        max-width: 720px;
+    }
+
+    #main-doc {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) { /* Desktops */
+    #navbar {
+        max-width: 960px;
+    }
+
+    #main-doc {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) { /* Large Screens */
+    #navbar {
+        max-width: 1140px;
+    }
+
+    #main-doc {
+        max-width: 1140px;
+    }
+}

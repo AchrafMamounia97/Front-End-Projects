@@ -1,0 +1,58 @@
+body {
+    background-color: rgba(75, 0, 130,0.6);
+    font-family: 'Venryn Sans', sans-serif;
+    font-size: 1rem;
+  }
+  .container {
+    text-align: center;
+    width: 100%;
+    margin: 3rem auto 0 auto;
+  }
+  .header {
+    color: #fffafa;
+    padding: 0 1rem;
+    margin-bottom: 2.5rem;
+    display: block;
+  }
+  #description {
+    font-style: italic
+  }
+  form {
+    background-color: rgba(75, 0, 130, 1);
+    display: block;
+    margin: 1rem;
+    text-align: left;
+    padding: 2em;
+    color: #fffafa; 
+  }
+  label {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  #name, #email, #number, #dropdown, #the-favorite {
+    border: none;
+    border-radius: 4px;
+    width: 90%;
+  }
+  p {
+    font-size: 18px
+  }
+  input, select{
+    font-size: 15px;
+    padding: 10px;
+  }
+  span {
+    font-size: 15px;
+  }
+  textarea{
+    width: 90%;
+    font-family: 'Venryn Sans', sans-serif; 
+    padding: 10px 10px 100px;
+  }
+  button {
+    width: 94%;
+    color: #fffafa;
+    font-size: 25px;
+    background-color: #04AA6D;
+  }
